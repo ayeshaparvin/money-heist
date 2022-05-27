@@ -34,6 +34,7 @@ input{
         display: block;
 }
 .input-error{
+    margin-top: 5px;
     padding: 2px;
     width: 200px;
     color:white;
