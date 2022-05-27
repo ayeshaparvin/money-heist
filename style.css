@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+
+.money{
+    text-align: center;
+    color:rgb(36, 182, 67);
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 50px;
+}
+.fa-sack-dollar{
+    color:gold;
+}
+
+.left-side img{
+    width: 850px;
+    height: 900px;
+}
+.right-side{
+    background-color: aquamarine;
+    width: 600px;
+    height: 900px;
+}
+
+input{
+    margin: 0px auto;
+        display: block;
+}
