@@ -26,9 +26,15 @@ document.getElementById('calculate').addEventListener('click',function(){
    
         const totalExpenses = parseFloat(food) + parseFloat(rent) + parseFloat(clothes);
         const balance = income - totalExpenses;
-    
-        document.getElementById('total-expenses').innerText = totalExpenses;
-        document.getElementById('balance').innerText = balance;
+          if(income < totalExpenses){
+              const numberError  = document.getElementById('number-error');
+              numberError.style.display = 'block';
+          }
+          else {
+            document.getElementById('total-expenses').innerText = totalExpenses;
+            document.getElementById('balance').innerText = balance;
+          }
+        
       }
       else {
        document.getElementById('total-expenses').innerText = 0;
