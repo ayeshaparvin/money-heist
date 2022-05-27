@@ -89,35 +89,7 @@ document.getElementById('calculate').addEventListener('click',function(){
     
 });
 
-/* document.getElementById('saving').addEventListener('click',function(){
-       
-    
-    const saving = document.getElementById('save-rate');
-    const savingValue = saving.value;
 
-    const income = document.getElementById('income');
-    const totalIncome = income.value;
-
-    const balance = document.getElementById('balance');
-    const balanceTotal = balance.innerText;
-
-    const savingAmount = document.getElementById('saving-amount');
-     const save = (savingValue * totalIncome)/100;
-    
-     
-    const remaining = document.getElementById('remaining-balance');
-    
-   
-   
-      // console.log(save);
-       savingAmount.innerText = save;
-       const remainingBalance = balanceTotal - save;
-    
-    remaining.innerText = remainingBalance;
-   
-    
-    
-}) */
 
 
 
