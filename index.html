@@ -30,28 +30,31 @@
                 <h2 class="text-center font-bold mt-8">Expenses</h2>
                 <label for="food">Food:</label>
                 <input class="p-3 mt-3 ml-2 w-2/4" type="text" id="food" placeholder="3000">
+                <h2 id="food-error" class="input-error">Please input your fill</h2>
                 <br>
                 <label for="rent">Rent:</label>
                 <input class="p-3 mt-3 ml-2 w-2/4" type="text" id="rent" placeholder="2000">
+                <h2 id="rent-error" class="input-error">Please input your fill</h2>
                 <br>
                 <label  for="clothes">Clothes:</label>
                 <input class="p-3 mt-3 ml-2 w-2/4" type="text" id="clothes" placeholder="500">
+                <h2 id="clothes-error" class="input-error">Please input your fill</h2>
                </div>
 
-                <button class="bg-sky-500 text-white p-4 mt-3 mb-3 rounded-lg ml-3">Calculate</button>
+                <button id="calculate" class="bg-sky-500 text-white p-4 mt-3 mb-3 rounded-lg ml-3">Calculate</button>
 
-                <h1 class="font-bold text-center">Total Expenses: <span>5500</span></h1>
-                <h1 class="font-bold text-center mb-3">Balance: <span>4500</span></h1>
+                <h1 class="font-bold text-center">Total Expenses: <span id="total-expenses">0</span></h1>
+                <h1 class="font-bold text-center mb-3">Balance: <span id="balance">0</span></h1>
                 
                 <div class="flex items-center my-6">
                     <label class="ml-3" for="save">save:</label>
                     <input class="p-3 mt-3 ml-2 w-1/4" type="text" id="save" placeholder="20">
                     <span class="ml-3 font-bold">%</span>
-                    <button class="bg-sky-500 text-white py-3 px-8 ml-3">Save</button>
+                    <button id="saving" class="bg-sky-500 text-white py-3 px-8 ml-3">Save</button>
                 </div>
 
-                <h1 class="font-bold text-center mt-4">Saving Amount: <span>2000</span></h1>
-                <h1 class="font-bold text-center mb-3">Remaining Balance: <span>2500</span></h1>
+                <h1 class="font-bold text-center mt-4">Saving Amount: <span id="saving-amount">0</span></h1>
+                <h1 class="font-bold text-center mb-3">Remaining Balance: <span id="remaining-balance">0</span></h1>
                 
            </div>
        </section>
